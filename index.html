@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matriz de Priorização</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Matriz de Priorização</h1>
+
+      <div class="input-container">
+        <label for="Urgência">Urgência:</label>
+        <select id="Urgência">
+          <option value="Alta">Alta</option>
+          <option value="Média">Média</option>
+          <option value="Baixa">Baixa</option>
+        </select>
+      </div>
+
+      <div class="input-container">
+        <label for="Impacto">Impacto:</label>
+        <select id="Impacto">
+          <option value="Alta">Alta</option>
+          <option value="Média">Média</option>
+          <option value="Baixa">Baixa</option>
+        </select>
+      </div>
+
+      <button id="calcular">Calcular Prioridade</button>
+
+      <div id="resultado" class="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
