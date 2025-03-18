@@ -54,15 +54,14 @@ button:hover {
   background-color: #3a3a3a;
 }
 
-/* Ajuste para o resultado ter o mesmo tamanho do botão */
 .resultado {
-  width: calc(100% - 12px); /* Mantém o mesmo tamanho do botão */
+  width: 100;
   padding: 10px;
   border-radius: 4px;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
-  background-color: #333333; /* Cor escura para combinar com o estilo flat */
-  color: #d4d4d4; /* Texto claro */
+  background-color: #333333;
+  color: #d4d4d4;
   margin-top: 20px;
 }
